@@ -10,6 +10,9 @@ BEGIN
         FOR CONL IN(
           SELECT * FROM CONEXOES WHERE ORIGEM = ELEMENTO
         ) LOOP
+        
+        -- TODO: New Path --
+        
       END LOOP;
     SELECT * FROM PRMUNICIPIO;
   inserefila(--DESTINO--);
